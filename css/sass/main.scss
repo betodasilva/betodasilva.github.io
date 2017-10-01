@@ -1,0 +1,8 @@
+$tablet-bp: 780px;
+$desktop-bp: 1024px;
+
+body {
+    @media(min-width: $desktop-bp) {
+        background: blue;
+    }
+}
