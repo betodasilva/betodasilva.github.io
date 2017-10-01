@@ -1,6 +1,9 @@
 $tablet-bp: 780px;
 $desktop-bp: 1024px;
 
-body {
-    background: none;
+html, body {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
 }

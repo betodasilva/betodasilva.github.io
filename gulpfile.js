@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
-    sass = require('gulp-sass');
+    sass = require('gulp-sass'),
+    browserSync = require('browser-sync');
 
 
 // uglify JavaScripts
@@ -18,10 +19,15 @@ gulp.task('minify', function(){
         .pipe(gulp.dest('build/css'));
 });
 
+gulp.task('sass-watch', ['minify'], browserSync.reload);
+
 //watch js files
 gulp.task('watch', function(){
+    browserSync({
+        server: {}
+    })
     gulp.watch('js/*.js', ['uglify']);
-    gulp.watch('css/sass/*.scss', ['minify']);
+    gulp.watch('css/sass/*.scss', ['sass-watch']);
 });
 
 gulp.task('default', ['uglify', 'minify', 'watch']);
