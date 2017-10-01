@@ -14,7 +14,7 @@ gulp.task('minify', function(){
     gulp.src('css/sass/main.scss')
         .pipe(sass({
             outputStyle: 'compressed'
-        }))
+        })).on('error', sass.logError)
         .pipe(gulp.dest('build/css'));
 });
 
