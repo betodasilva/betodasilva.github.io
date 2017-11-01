@@ -1,5 +1,23 @@
-$tablet-bp: 780px;
-$desktop-bp: 1024px;
+$tablet-width: 780px;
+$desktop-width: 1024px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin flex-center-both {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 html, body {
     width: 100%;
@@ -12,7 +30,7 @@ html, body {
  * index.scss
  * - Add any styles you want here!
  */
- $togglerSize: 40px;
+ $togglerSize: 32px;
  $bg: #F8FAFF;
  $main: #353866;
  $black: #282c37;
@@ -29,6 +47,8 @@ html, body {
  
  body {
    background: $bg;  
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
  }
  
  p,
@@ -57,46 +77,55 @@ html, body {
  .input-toggler {
   display: none !important;
    &:checked ~ .menu-toggler .menu-toggler__line:nth-child(1) {
-     transform: translateY(calc(40px/5 * 2)) rotate(45deg);
+     transform: translateY(calc(32px/5 * 2)) rotate(45deg);
      
    }
    &:checked ~ .menu-toggler .menu-toggler__line:nth-child(2) {
    opacity: 0;
  }
    &:checked ~ .menu-toggler .menu-toggler__line:nth-child(3) {
-   transform: translateY(calc(40px / 5 * -2)) rotate(-45deg);
+   transform: translateY(calc(32px / 5 * -2)) rotate(-45deg);
  }
    &:checked ~ .menu-toggler .menu-toggler__line{
      transition-delay: .25s, 0s;
    }
+
+   &:checked ~ .navigation {
+     display: flex;
+   }
+
+   &:checked ~ .navigation >.nav-item {
+    opacity: 1;
+  }
    
  }
  
  .menu-toggler {
-   display: block;
    width: $togglerSize;
    height: $togglerSize;
-   position: fixed;
-   top: 10px;
-   right: 10px;
+   position: absolute;
+   top: 35px;
+   right: 20px;
+   z-index: 4;
    cursor: pointer;
-   @media (min-width: 768px) {
+   @include desktop {
      display: none;
    }
  }
  
  .menu-toggler__line {
-   height: calc(40px / 5);
-   background: Tomato;
-   position: absolute;
-   left: 0;
-   right: 0;
-   &:nth-child(2) {
-     top: calc(40px / 5 * 2);
-   }
-   &:nth-child(3) {
-     top: calc(40px / 5 * 4);
-   }
+    height: calc(32px / 5);
+    background: $secondary-2;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    &:nth-child(2) {
+      top: calc(32px / 5 * 2);
+    }
+    &:nth-child(3) {
+      top: calc(32px / 5 * 4);
+  }
    
    transition-property: transform, opacity;
    transition-duration: .5s, .25s;
@@ -106,9 +135,9 @@ html, body {
  .navigation {
    display: none;
    justify-content: space-around;
-   height: 42px;
+  //  height: 42px;
    padding-bottom: 4px;
-   align-items: flex-end;
+   align-items: center;
    >.nav-item {
      min-width: 40px;
      line-height: 1;
@@ -117,6 +146,7 @@ html, body {
      text-transform: uppercase;
      letter-spacing: 1.5px;
      color: #424242;
+     transition: opacity 380ms ease 1s;
      &:after {
        content: '';
        display: block;
@@ -131,8 +161,34 @@ html, body {
        visibility: visible;
      }
    }
-   
-   @media (min-width: 768px) {
+
+   @media (max-width: 768px) {
+     flex-direction: column;
+     justify-content: center;
+     position: fixed;
+     top: 0;
+     left: 0; right: 0;
+     bottom: 0;
+     padding: 3em;
+     background: $bg;
+     z-index: 3;
+     >.nav-item {
+       font-size: 16px;
+       line-height: 3.4;
+       position: relative;
+       opacity: 0;
+       &.active:after {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -15px;
+        margin: 0;
+       }
+     }
+   }
+
+   @include desktop(){
+     height: 42px;
      display: flex;
    }
  }
@@ -142,6 +198,7 @@ html, body {
  }
  
  .wrapper {
+   padding: 2.6em 0em;
    @media (min-width: 1024px) {
      padding: 2.6em 7.6em;
    }
@@ -182,8 +239,8 @@ html, body {
  
  .about {
    .picture {
-     width: 92px;
-     height: 92px;
+     width: 64px;
+     height: 64px;
      //  center photo with flex-box
      display: flex; justify-content: center; align-items: center;
      background: #fff;
@@ -191,6 +248,12 @@ html, body {
      border-radius: 100%;
      padding: 16px;
      margin: 1.4em auto;
+
+     @include desktop {
+        width: 82px;
+        height: 82px;
+     }
+     
    }
    
    .text {
@@ -232,8 +295,11 @@ html, body {
     // }
  }
 
- .projects-row {
-     margin-bottom: 4%;
+ .row-projects {
+    @media (min-width: 768px) {
+      margin-bottom: 6%;
+    }
+
  }
   
  .browser-mockup {
@@ -303,3 +369,89 @@ html, body {
     display: flex;
     justify-content: space-around;
 }
+
+
+/* ------------------------
+    Articles 
+--------------------------- */
+
+.row-articles {
+  margin-bottom: 4%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a.article {
+  text-decoration: none;
+  &:hover { color: inherit; }
+}
+.article {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 0 1.5em;
+  background: #fff;
+  color: $black;
+  box-shadow: 1px 1px 5px 0 rgba(40, 44, 55, 0.2);
+  transform: translateY(0);
+  transition: all 280ms ease;
+  &:hover {
+    transform: translateY(12px);
+  }
+
+  @include tablet(){
+    width: 48%;
+  }
+  
+  @include desktop(){
+    width: calc(32% - 91px);
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+
+.article-img {
+  margin: 0 -1.5em;
+}
+
+.article-text { 
+  text-align: center; 
+  margin-bottom: 40px;
+}
+
+.article-title {
+  text-decoration: none;
+  margin-top: .85em;
+  margin-bottom: .75em;
+  font-size: 1.75em;
+  line-height: 1.25;
+  font-weight: 700;
+  // text-shadow: 1px 1px rgba(0,0,0,0.2);
+  color: $black;
+} 
+
+.article-categories {
+  @include flex-center-both();
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  >.category {
+    display: block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+
+    &.type-1 { background: $secondary; }
+    &.type-2 { background: $secondary-2; }
+  }
+}
+
+
+
+
+  
+
+
