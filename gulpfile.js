@@ -1,7 +1,9 @@
-var gulp = require('gulp'),
+const gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     sass = require('gulp-sass'),
-    browserSync = require('browser-sync');
+    browserSync = require('browser-sync').create(),
+    shell = require('gulp-shell'),
+    siteRoot = '_site';
 
 
 // uglify JavaScripts
@@ -21,13 +23,21 @@ gulp.task('minify', function(){
 
 gulp.task('sass-watch', ['minify'], browserSync.reload);
 
-//watch js files
+gulp.task('build', shell.task(['bundle exec jekyll build --watch']));
+
 gulp.task('watch', function(){
-    browserSync({
-        server: {}
-    })
+    browserSync.init({
+        files: [siteRoot + '/**'],
+        port: 4000,
+        server: {
+            baseDir: siteRoot
+        }
+    });
     gulp.watch('js/*.js', ['uglify']);
     gulp.watch('css/sass/*.scss', ['sass-watch']);
 });
 
-gulp.task('default', ['uglify', 'minify', 'watch']);
+
+
+
+gulp.task('default', ['uglify', 'minify', 'build', 'watch']);

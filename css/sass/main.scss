@@ -13,11 +13,24 @@ $desktop-width: 1024px;
   }
 }
 
-@mixin flex-center-both {
+@mixin flexbox {
   display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin flexbox-mid {
+  @include flexbox();
+  align-items: center;
+}
+
+@mixin flex-center-both {
+  @include flexbox();
   justify-content: center;
   align-items: center;
 }
+
+
+
 
 html, body {
     width: 100%;
@@ -205,7 +218,10 @@ html, body {
  }
  .first-sec {
    @media (min-width: 1024px) {
-     padding-top: 7.6em !important;
+     padding-top: 46px;
+     &.no-wrapper {
+       padding-top: 82px;
+     }
    }
  }
  .headline-wrapper {
@@ -216,7 +232,7 @@ html, body {
      display: block;
      position: absolute;
      height: 4px;
-     background-color: #626262;
+     background-color: #aaa;
      bottom: 0;
      border-radius: 6px;
    }
@@ -234,10 +250,12 @@ html, body {
  .headline-title {
    font-weight: 700;
    color: $main;
+   font-size: 64px;
  }
  
  
  .about {
+
    .picture {
      width: 64px;
      height: 64px;
@@ -248,11 +266,6 @@ html, body {
      border-radius: 100%;
      padding: 16px;
      margin: 1.4em auto;
-
-     @include desktop {
-        width: 82px;
-        height: 82px;
-     }
      
    }
    
@@ -403,9 +416,10 @@ a.article {
   }
   
   @include desktop(){
-    width: calc(32% - 91px);
-    margin-right: 30px;
-    margin-left: 30px;
+    width: calc(32% - 72px);    
+    &:not(:nth-child(3n)) {
+      margin-right: 60px;
+    }
   }
 }
 
@@ -451,7 +465,39 @@ a.article {
 
 
 
+.form input, .form textarea {
+  width: 100%;
+}
 
+.form textarea {
+  height: 160px;
+}
   
+@mixin text-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
 
+.about-me {  
+  @include text-wrapper;
+  > p {
+    font-size: 19px;
+    line-height: 32px;
+  }
+}
 
+.about-header {
+  @include text-wrapper();
+  @include flexbox();
+  align-items: flex-end;
+  .picture {
+    margin: 1.4em 4% 1.4em 0;
+    width: 42px;
+    height: 42px;
+  }
+}
+
+.about-title {
+  font-size: 42px;
+  line-height: 1.6;
+}
