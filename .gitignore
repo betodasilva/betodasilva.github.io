@@ -1,5 +1,5 @@
 node_modules
 build
-site/
+_site/
 .sass_cache
 .jekyll-metadata
