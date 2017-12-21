@@ -82,6 +82,13 @@ html, body {
    vertical-align: middle;
    height: auto;
  }
+
+ .txt-highlight {
+   background: $main;
+   color: #fff;
+   padding: 0 5px;
+   margin:0 2.5px;
+ }
  
  .header {
    padding-top: 2em;
@@ -242,7 +249,7 @@ html, body {
      position: absolute;
      height: 6px;
      background-color: $secondary;
-     bottom: 0;
+     bottom: 5px;
      border-radius: 6px;
    }
    &:before {
@@ -265,13 +272,12 @@ html, body {
  
  .about {
    
-    // .short-description {
+    .short-description {
 
-    //   // @media (min-width: 1024px) {
-    //   //   padding-right: 75px;
-    //   //   padding-top: 1.4em;
-    //   // }
-    // }
+      @media (min-width: 1024px) {
+        padding-top: 10px;
+      }
+    }
    &.about--home {
     background: $secondary;
    }
@@ -295,23 +301,27 @@ html, body {
    
    .text {
      text-align: left;
-     font-size: 18px;
-     line-height: 28px;
+     font-size: 21px;
+     line-height: 1.4444;
      color: #fff; 
    }
     @include desktop(){
      padding-top: 4em;
+
+     .picture {
+       margin-top: 30px;
+     }
     }
   
  }
  
  .network-list{
    display: flex;
-   justify-content: center;
-   margin: 2.4em auto;
+   justify-content: flex-start;
+   
  }
  .network {
-   margin: 0 26px;
+   margin-right: 20px;
    width: 26px;
  }
  
