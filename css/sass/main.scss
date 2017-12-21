@@ -74,7 +74,7 @@ html, body {
  h6,
  span
  {
-   &::selection { background: #353866; } 
+   &::selection { background-color: $main; color: #fff; } 
  }
  
  img {
@@ -167,7 +167,7 @@ html, body {
        content: '';
        display: block;
        visibility: hidden;
-       margin: 15px auto -15px;
+       margin: 5px auto -15px;
        width: 8px;
        height: 8px;
        border-radius: 100%;
@@ -227,6 +227,12 @@ html, body {
      }
    }
  }
+ .headline {
+   @include flex-center-both();
+   @media (min-width: 1024px) {
+    min-height: calc(100vh - 260px);
+   }
+ }
  .headline-wrapper {
    text-align: center;
    position: relative;
@@ -235,7 +241,7 @@ html, body {
      display: block;
      position: absolute;
      height: 4px;
-     background-color: $black;
+     background-color: $secondary-2;
      bottom: 0;
      border-radius: 6px;
    }
@@ -252,14 +258,16 @@ html, body {
  
  .headline-title {
    font-weight: 700;
-   color: $black;
+   color: $secondary-2;
    font-size: 64px;
  }
  
  
  .about {
+   background: #fff;
 
     .short-description {
+
       @media (min-width: 1024px) {
         padding-right: 75px;
         padding-top: 1.4em;
@@ -289,9 +297,11 @@ html, body {
      font-size: 18px;
      line-height: 28px;
      
-     
    }
    
+   @include desktop(){
+     padding-top: 6em;
+   }
  }
  
  .network-list{
@@ -518,4 +528,16 @@ a.article {
 .about-title {
   font-size: 42px;
   line-height: 1.6;
+}
+
+.quote { padding-top: 24px; }
+.quote blockquote {
+  @media (min-width: 1024px) {
+    font-size: 26px;
+  }
+  
+
+  // background: #fff;
+  // padding: 1.2em;
+  // border-radius: 20px;
 }
