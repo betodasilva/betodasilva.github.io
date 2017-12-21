@@ -230,7 +230,7 @@ html, body {
  .headline {
    @include flex-center-both();
    @media (min-width: 1024px) {
-    min-height: calc(100vh - 260px);
+    padding-bottom: 4em;
    }
  }
  .headline-wrapper {
@@ -240,8 +240,8 @@ html, body {
      content: '';
      display: block;
      position: absolute;
-     height: 4px;
-     background-color: $secondary-2;
+     height: 6px;
+     background-color: $secondary;
      bottom: 0;
      border-radius: 6px;
    }
@@ -258,25 +258,26 @@ html, body {
  
  .headline-title {
    font-weight: 700;
-   color: $secondary-2;
+   color: $secondary;
    font-size: 64px;
  }
  
  
  .about {
-   background: #fff;
+   
+    // .short-description {
 
-    .short-description {
-
-      @media (min-width: 1024px) {
-        padding-right: 75px;
-        padding-top: 1.4em;
-      }
-    }
-
+    //   // @media (min-width: 1024px) {
+    //   //   padding-right: 75px;
+    //   //   padding-top: 1.4em;
+    //   // }
+    // }
+   &.about--home {
+    background: $secondary;
+   }
    .picture {
-     width: 140px;
-     height: 140PX;
+     width: 103px;
+     height: 103PX;
      //  center photo with flex-box
      display: flex; justify-content: center; align-items: center;
     //  background: #fff;
@@ -296,12 +297,12 @@ html, body {
      text-align: left;
      font-size: 18px;
      line-height: 28px;
-     
+     color: #fff; 
    }
-   
-   @include desktop(){
-     padding-top: 6em;
-   }
+    @include desktop(){
+     padding-top: 4em;
+    }
+  
  }
  
  .network-list{
