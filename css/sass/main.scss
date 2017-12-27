@@ -127,7 +127,7 @@ html, body {
    width: $togglerSize;
    height: $togglerSize;
    position: absolute;
-   top: 35px;
+   top: 5px;
    right: 20px;
    z-index: 4;
    cursor: pointer;
@@ -236,6 +236,7 @@ html, body {
  }
  .headline {
    @include flex-center-both();
+   padding-bottom: 3em;
    @media (min-width: 1024px) {
     padding-bottom: 4em;
    }
@@ -266,7 +267,11 @@ html, body {
  .headline-title {
    font-weight: 700;
    color: $secondary;
-   font-size: 64px;
+   margin-bottom: 0;
+   @media (min-width: 1024px) {
+    font-size: 64px;
+   }
+   
  }
  
  
@@ -282,14 +287,23 @@ html, body {
     background: $secondary;
    }
    .picture {
-     width: 103px;
-     height: 103PX;
+     width: 84px;
+     height: 84PX;
      //  center photo with flex-box
      display: flex; justify-content: center; align-items: center;
-    //  background: #fff;
-    //  border: 3px solid #424242;
+     //  background: #fff;
+     //  border: 3px solid #424242;
      border-radius: 100%;
      margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 20px;
+     
+     @media (min-width: 1024px) {
+       margin-right: 0;
+       margin-bottom: 0;
+       width: 103px;
+       height: 103PX;
+     }
     //  padding: 16px;
     // background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
      
@@ -322,7 +336,8 @@ html, body {
  }
  .network {
    margin-right: 20px;
-   width: 26px;
+
+   > i { font-size: 24px; color: #fff; }
  }
  
  
