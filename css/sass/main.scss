@@ -43,6 +43,8 @@ html, body {
  * index.scss
  * - Add any styles you want here!
  */
+
+ /* VARIABLES */
  $togglerSize: 32px;
  $bg: #F8FAFF;
  $main: #FF6D02;
@@ -315,7 +317,7 @@ html, body {
    
    .text {
      text-align: left;
-     font-size: 21px;
+     font-size: 19px;
      line-height: 1.4444;
      color: #fff; 
    }
@@ -555,15 +557,66 @@ a.article {
   font-size: 42px;
   line-height: 1.6;
 }
-
-.quote { padding-top: 24px; }
-.quote blockquote {
-  @media (min-width: 1024px) {
-    font-size: 26px;
-  }
   
 
   // background: #fff;
   // padding: 1.2em;
   // border-radius: 20px;
+
+
+/* FOOTER */
+
+.footer {
+  background: $black;
+  color: #fff;
+}
+.quote {
+  padding-top: 24px; 
+  padding-bottom: 24px;
+  @include flexbox-mid();
+
+  > blockquote, > cite {
+    font-weight: 300;
+  }
+
+  > blockquote {
+    width: 100%;
+    text-align: right;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+
+  > cite {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 1024px) {
+    > cite {
+      margin-right: 10px; 
+    }
+  }
+}
+
+.form-footer {
+  padding-top: 34px;
+  padding-bottom: 24px;
+  margin-bottom: 0;
+}
+
+.form-footer > label {
+  margin: 0 0 10px;
+  > span {
+    font-weight: 300;
+    display: block;
+  }
+}
+
+.form-footer > input[type="email"] {
+  width: 70%;
+}
+
+.form-footer > input[type="submit"] {
+  color: #fff;
 }
