@@ -32,6 +32,11 @@ exclude:
   - node_modules
   - gulpfile.js
 
+permalink: /:title/
+
 collections:
   projects:
+    permalink: /:title/
+  posts:
+    permalink: /:title/
   
