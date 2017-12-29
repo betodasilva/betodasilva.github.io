@@ -6,6 +6,24 @@ weight: 3
 <div class="container">
 <section class="articles first-sec no-wrapper">
   <div class="row row-articles">
+    {% for post in site.posts %}
+       <a href="{{ post.url }}" class="article">
+        <div class="article-img">
+          <img src="{{ post.image }}" alt="">
+        </div>
+        <div class="article-text">
+          <h1 class="article-title">
+            {{ post.title }}
+          </h1>
+          <p class="article-subtitle">{{ post.subtitle }}</p>
+        </div>
+        <div class="article-categories">
+          {% for category in post.categories %}
+            <span class="category {{category}}">{{ category }}</span>
+          {% endfor %}
+        </div>
+      </a>
+    {% endfor %}
       <a href="#" class="article">
         <div class="article-img">
           <img src="https://picsum.photos/480/230" alt="">

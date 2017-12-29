@@ -512,12 +512,16 @@ a.article {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #fff;
+    text-shadow: 0.4444px 0.4444px $black;
     font-weight: 600;
   
     
 
-    &.type-1 { background: $secondary; }
-    &.type-2 { background: $secondary-2; }
+    &.lifehack { background: $secondary; }
+    &.produtividade { background: $main; }
+    &.marketing { background: $secondary-2; }
+    &.dev { background: $black; }
+    &.freelance { background: #f44; }
   }
 }
 
