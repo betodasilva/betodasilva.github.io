@@ -472,6 +472,7 @@ a.article {
   
   @include desktop(){
     width: calc(32% - 72px);    
+    margin-bottom: 60px;
     &:not(:nth-child(3n)) {
       margin-right: 60px;
     }
