@@ -3,22 +3,25 @@ layout: default
 ---
 {% assign post = page %}
 <article class="single-post">
-    <div class="single-image" style="background-image: url('{{ post.image }}');"></div>
-    <div class="single-container">
-        <header class="single-header"> 
-            <h2 class="single-title">{{ post.title }}</h2>
-            <p class="single-subtitle">{{ post.subtitle }}</p>
+    <div class="single-image" style="background-image: url('{{ post.image }}');">
+        
+            <header class="single-header"> 
+                <div class="single-container">
+                <h2 class="single-title">{{ post.title }}</h2>
+                <p class="single-subtitle">{{ post.subtitle }}</p>
 
-            {% if post.categories %}
-            <div class="article-categories">
-                {% for category in post.categories %}
-                    <a href="" class="category {{category}}">{{ category }}</a>
-                {% endfor %}
+                {% if post.categories %}
+                <div class="article-categories">
+                    {% for category in post.categories %}
+                        <a href="" class="category {{category}}">{{ category }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
             </div>
-            {% endif %}
-            
-        </header>
-
+            </header>
+        
+    </div>
+    <div class="single-container">
         <div class="single-content">
                 {{ content }}
         </div>
