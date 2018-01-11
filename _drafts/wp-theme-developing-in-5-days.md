@@ -25,13 +25,28 @@ No Asana você pode tem duas opções de criar um projeto: lista e BOARD.
 
 Particularmente eu utilizo BOARD para utilizar como Kanban, Scrum, etc. Acho que serve melhor para projetos.
 
-### Dia 01
+### Dia 01 - Setup Inicial, Repositório Git, Adição de FrameWorks.
 
 Hoje o dia foi mais de setup geral do tema, adição dos frameworks que vou utilizar, adição de jetpack.
 
 - Utilizei o **underscore** para gerar um tema inicial. 
 - Configurei o gulp para minificar JS/CSS e também o BrowserSync.
 - Fiz a estrutura da página inicial do site
+- Adicionei feature de posts em destaque
+- Adicionei loops e templates para os posts recentes / destacados
+
+### Dia 02
+
+A projeção do tema não é de tanta complexidade. O back-end é facil de fazer e acredito que não deve ocupar nem 30% do tempo gasto no desenvolvimento. A grande sacada desse tema está no **design**.
+
+Como o foco principal é tornar o conteúdo mais fácil de ler, a fim de gerar mais conversões com os afiliados e também atrair mais leitores fiéis, todo o meu esforço deverá estar voltado ao Front-End / UX / UI do tema.
+
+O *kube* está facilitando bastante o meu trabalho, mas ainda preciso focar nos detalhes. Por enquanto ainda não defini palheta de cores nem tipografia. Estou usando o definido pelo framework.
+
+Para o dia 02, já vou começar estilizando a front-page para ter um resultado visual que me dê motivação.
+
+
+
 
 
 
