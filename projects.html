@@ -5,68 +5,33 @@ weight: 2
 ---
 <div class="container">
 <section class="projects row first-sec no-wrapper">
-  <div class="row row-projects">
+    {% for project in site.projects %}
+      {% assign loopindex = forloop.index | modulo: 2 %}
+      {% if loopindex != 0 or forloop.first %}
+        <div class="row row-projects">
+      {% endif %}
       <div class="one-half column">
           <div class="project-container">
-            <div class="browser-mockup with-url">
-              <img src="http://placehold.it/580x370/fff/eee" />
-            </div>
-            <div class="project-details">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ullam qui eos voluptate iusto obcaecati soluta pe</p>
-              </div>
-              <div class="project-btns">
-                <button class="btn">More Info</button>
-                <button class="btn">See project</button>
-              </div>
-          </div>
-        </div>
-          <div class="one-half column">
-          <div class="project-container">
-            <div class="browser-mockup with-url">
-              <img src="http://placehold.it/580x370/fff/eee" />
-            </div>
-            <div class="project-details">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ullam qui eos voluptate iusto obcaecati soluta pe</p>
+              <a href="{{project.url}}">
+                <div class="project-mockup">
+                    <img src="{{project.image}}" alt="{{project.title}}" class="project-image" />
+                </div>
+              </a>
+              <div class="project-details">
+                  <p>{{project.short_description}}</p>
               </div>
               <div class="project-btns">
                   <button class="btn">More Info</button>
-                  <button class="btn">See project</button>
-                </div>
-          </div>
-        </div>
-  </div>
-  <div class="row row-projects">
-      <div class="one-half column">
-          <div class="project-container">
-            <div class="browser-mockup with-url">
-              <img src="http://placehold.it/580x370/fff/eee" />
-            </div>
-            <div class="project-details">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ullam qui eos voluptate iusto obcaecati soluta pe</p>
+                  <button class="btn">
+                      <a href="{{project.link}}" target="_blank" rel="nofollow">See project</a>
+                  </button>
               </div>
-              <div class="project-btns">
-                  <button class="btn">More Info</button>
-                  <button class="btn">See project</button>
-                </div>
+              
           </div>
         </div>
-          <div class="one-half column">
-          <div class="project-container">
-            <div class="browser-mockup with-url">
-              <img src="http://placehold.it/580x370/fff/eee" />
-            </div>
-            <div class="project-details">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ullam qui eos voluptate iusto obcaecati soluta pe</p>
-            </div>
-            <div class="project-btns">
-                <button class="btn">More Info</button>
-                <button class="btn">See project</button>
-              </div>
-          </div>
-        </div>
-  </div>
-  
-    
-  
+      {% if loopindex == 0 or forloop.last %}
+      </div> <!-- .row-projects -->
+      {% endif %}
+    {% endfor %}
 </section>
 </div>

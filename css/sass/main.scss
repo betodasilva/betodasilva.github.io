@@ -229,6 +229,7 @@ html, body {
    }
  }
  .first-sec {
+   padding-top: 46px;
    @media (min-width: 1024px) {
      padding-top: 46px;
      &.no-wrapper {
@@ -351,7 +352,10 @@ html, body {
  .project-container {
    position: relative;
    min-height: 360px;
+   margin-bottom: 40px;
    background: transparent;
+   border: 1px solid rgba(0,0,0,0.2);
+   border-radius: 5px;
 //    overflow: hidden;
    /* Show details on hover */
     // &:hover > .project-details {
@@ -371,11 +375,15 @@ html, body {
 
  }
   
- .browser-mockup {
-    border-top: 2em solid $secondary;
-    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2);
+ .project-mockup {
+    // box-shadow: 0px 1px 3px 0 rgba(71, 71, 71, 0.1);
     position: relative;
-    border-radius: 3px 3px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 280ms ease;
+    &:hover .project-image {
+      filter: grayscale(0);
+    }
   }
   
   .browser-mockup:before {
@@ -407,8 +415,11 @@ html, body {
     display: block;
   }
 
-  .browser-mockup > img {
-      border-radius: 3px 3px 0 0;
+  .project-image {
+    border-radius: 5px 5px 0 0;
+    // mix-blend-mode: multiply;
+    filter: grayscale(100%);
+    transition: filter 280ms ease;
   }
   
   .project-details {
@@ -419,7 +430,7 @@ html, body {
     //   right: 0;
     //   bottom: 0;
     // margin-top: 60px;
-      padding: 1.25em 1.8em;
+      padding: 1.6em 1.8em 1em;
     //   background: rgba(106, 175, 230, 0.55);
     //   color: #fff;
     //   transform: translateY(110px);
@@ -437,6 +448,9 @@ html, body {
 .project-btns {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 1.6em;
+
+    a { text-decoration: none; color: inherit; }
 }
 
 
