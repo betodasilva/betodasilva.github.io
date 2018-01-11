@@ -2,8 +2,8 @@
 layout: posts
 title: Desenvolvendo um Tema WordPress em 5 Dias
 subtitle: Com as ferraments de automação disponíveis hoje em dia, tudo fica mais fácil.
-featured_image: https://picsum.photos/480/230
-image: https://picsum.photos/1440/460
+featured_image: https://picsum.photos/480/230?image=20
+image: https://picsum.photos/1440/460?image=20
 categories: [lifehack, marketing]
 ---
 
