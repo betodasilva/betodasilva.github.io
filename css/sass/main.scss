@@ -639,7 +639,7 @@ a.article {
 }
 
 .single-container {
-  max-width: 840px;
+  max-width: 820px;
   margin: 0 auto;
   padding-right: 2em;
   padding-left: 2em;
@@ -672,7 +672,7 @@ a.article {
   background-position: center;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 2em;
+  margin-bottom: 40px;
   width: 1440px;
   max-width: 100%;
   max-height: 460px;
@@ -682,6 +682,10 @@ a.article {
     position: absolute;
     left:0; top: 0; right: 0; bottom: 0;
     background-color: rgba(0,0,0,0.2);
+  }
+
+  @include desktop(){
+    height: 360px;
   }
 
 }
@@ -695,15 +699,20 @@ a.article {
 }
 
 .single-content {
-  font-size: 17px;
+  font-size: 18px;
   font-family: 'Open Sans', sans-serif;
-
+  color: #424242;
   > p {
-    margin-bottom: 1.6rem;
+    margin-bottom: 40px;
+    line-height: 30px;
   }
 
-  > p.post-intro {
-    font-size: 21px;
-    margin-bottom: 1.6em;
+  > h1,
+  > h2,
+  > h3,
+  > h4
+  {
+    font-weight: 600;
   }
+
 }
