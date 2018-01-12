@@ -451,12 +451,16 @@ html, body {
     display: flex;
     justify-content: space-around;
     padding-bottom: 1.6em;
-    button, a { color: #fff; }
+    .project-link { 
+      color: #FFF;
+      text-decoration: none; 
+    }
+    button { color: #FFF; }
     button:hover {
-      border-color: $secondary;
+      background: #FFF;
+      color: $secondary;
     }
 
-    a { text-decoration: none; color: inherit; }
 }
 
 
