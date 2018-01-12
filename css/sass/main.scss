@@ -438,9 +438,12 @@ html, body {
     //   transition: transform 280ms ease-in-out;
     color: #fff;
 
-      > p { 
+      > .project-description, .project-title { 
           margin-bottom: 0; 
           text-align: center;
+          max-width: 340px;
+          margin-right: auto;
+          margin-left: auto;
         //   opacity: 0;
         //   transition: opacity 280ms ease-in-out 200ms;
         }
