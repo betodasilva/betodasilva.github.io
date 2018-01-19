@@ -1,11 +1,91 @@
 ---
 layout: posts
-title: Melhore em 2018 Sua Presença Online e Aumente Seu Salário em +2x
-subtitle: Será que consigo ser mais produtivo ao acordando cedo?
+title: Melhore Sua Presença Online em 2018 e Aumente Seu Salário em +2x
+subtitle: Como ter retorno sobre o dinheiro e tempo investido no seu site.
 featured_image: https://picsum.photos/480/230
 image: https://picsum.photos/1440/460
 categories: [lifehack, marketing]
 ---
+
+## Como é possível aumentar seu salário com sua presença online?
+
+"A que ponto você quer chegar?" ─ você deve estar se perguntando.
+
+"Eu já passo mais de quatro horas por dia divulgando meus serviços no facebook, o que falta?"
+
+Eu tenho certeza que você conesgue cliente postando fotos do seu serviço na sua timeline. Uma hora ou outra você consegue fazer uma conversão.
+
+Mas você já parou pra pensar e analisar se sua postagens está sendo eficiente? O tempo que você gasta preparando as postagens está dando resultado? As pessoas voltam à sua página para consultar uma informação que você postou?
+
+Eu não vou dar dicas de como promover no facebook neste post, quero falar da presença online de uma maneira geral, toda internet.
+
+Isso porque depender de um canal só de tráfego pode ser comprometedor para você a longo prazo. Mark Zukeberg por exemplo anunciou recentemente que vai diminuir a exibição de conteúdo das páginas nos feed de noticias das pessoas.
+
+Pensando nisso, me responda qual a maneira de você ter um espaço só seu na internet onde todos podem lhe achar e conhecer seus serviços?
+
+Seu site! 
+
+Surpresa nenhuma, já dizem isso desde os anos 2000.
+
+Por que você ainda não tem um em 2018?
+
+Não sabe um jeito de investir em um site de uma maneira que ele te retorne dinheiro a longo prazo? Deixa eu te mostrar algumas alternativas para que em 2018 você possa de fato ter seu primeiro site.
+  
+### Freelancer full-time / part-time
+Se você é (ou deseja ser) freelancer, seja em tempo integral ou no tempo livre, ter um site com um bom design é primordial para que você consiga vender seu peixe, certo?
+
+Talvez você já faça prospecção no local onde você mora, ou tenha um networking onde as pessoas te indicam quando aparece freela, mas a verdade é que você nunca tem controle sobre essas demandas. 
+
+Em uma semana de sorte pode aparecer umas 5+ potenciais freelas, mas às vezes se passam meses e ninguem te chama para nada.
+
+Então como aumentar a quantidade de solicitações que você recebe para freelas?
+
+A mágica está em atrair pessoas para o seu site para que você possa converter clientes constantemente. E a maneira que você tem de fazer isso em **piloto automático** é cronstruir um fluxo de visitas através do Google.
+
+Se você já ouviu falar da lei de demanda x oferta, já entendeu que para melhorar seus ganhos mensais precisa também aumentar a demanda de procuras por você.
+
+É como da vez que todo mundo tá pedindo Uber ao mesmo tempo e ele dobra de valor.
+
+Essa deve ser a sua estratégia para aumentar seu salário em até 2x.
+
+Caso você trabalhe em tempo integral, poderá gerenciar seu tempo livre para fazer um trabalho extra com os clientes que irá conseguir online.
+
+
+### Pequeno empreendimento
+
+Caso você possua algum pequeno empreendimento e quer aumentar a receita, a regra do Uber (demanda x oferta) também pode ser aplicada para gerar mais clientes. 
+
+A diferença é que ao invés de vender seus serviços você estará vendendo produtos. 
+
+E nesse caso você deverá fazer uma adaptação da estratégia de marketing de acordo com o seu modelo de negócio.
+
+Mas nunca se esqueça: conteúdo e informação é rei. 
+
+Dê ao seu cliente informação relevante que ele se lembrará de você pro resto da vida.
+
+### Ser promovido / conseguir um emprego melhor
+
+Inúmeras vezes eu vi desenvolvedores serem chamados para boas oportunidades de trabalho por causa da sua reputação na internet.
+
+Hoje em dia não é somente o seu currículo mostrando a sua graduação que conta na hora da entrevista de emprego.
+
+Mostrar o que você faz geralmente tem um peso maior na escolha de um outro funcionário.
+
+Então por que não se dedicar a mostrar um projeto pessoal feito com qualidade na internet para que as pessoas possam conhecer de fato o seu trabalho?
+
+As oportunidades de trabalho virão naturalmente.
+  
+
+## Para se ter um site é necessário um investimento para produção e manutenção. Como fazer o investimento valer a pena?
+  1. Conteúdo (que converte)!
+    1. Ajudar outras pessoas
+    2. Construir uma autoridade
+    3. Manter relacionamento 
+- O que você precisa para que todos leiam seu conteúdo
+  1. No Ads
+  2. Responsividade
+  3. Tipografia
+  4. Cores
 
 **Ter uma boa presença online - o que quero dizer, um site moderno e com bom conteúdo aumenta sua reputação profissional. Mais pessoas passam a conhecer você e seu trabalho, que se for bem apresentado, garantirá para você mais clientes (e consequentemente mais dinheiro).**
 
