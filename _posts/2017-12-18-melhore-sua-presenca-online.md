@@ -9,11 +9,23 @@ categories: [lifehack, marketing]
 
 ## Como é possível aumentar seu salário com sua presença online?
 
+Antes de tudo, para que todo o restante dessa postagem seja interessante, você precisa ter a certeza de como é possível aumentar seu salário, caso você melhore sua presença online (seguindo o passo a passo do post).
+
+Também, antes de saber, preciso te dizer que não estou aqui querendo te vender nenhuma fórmula mágica que você vai aplicar em 30 minutos e sua vida vai mudar para sempre. 
+
+Esse tipo de coisa não existe. Eu já gastei milhares de horas na internet lendo bobagens que de primeira vista parecem ser verídicos, mas no final das contas não passam de algum falastrão querendo vender algo no final. 
+
+Não existe fórmula mágica.
+
+O que vou compartilhar aqui exige trabalho a longo prazo, obtenção e retenção de informação e análise constante para melhoria do método.
+
+Também todo esse trabalho você pode fazer de pijama, tomando um cafezinho e ouvindo uma playlist no spotify.
+
 "A que ponto você quer chegar?" ─ você deve estar se perguntando.
 
 "Eu já passo mais de quatro horas por dia divulgando meus serviços no facebook, o que falta?"
 
-Eu tenho certeza que você conesgue cliente postando fotos do seu serviço na sua timeline. Uma hora ou outra você consegue fazer uma conversão.
+Eu tenho certeza que você consegue cliente postando fotos do seu serviço na sua timeline. Uma hora ou outra você consegue fazer uma conversão.
 
 Mas você já parou pra pensar e analisar se sua postagens está sendo eficiente? O tempo que você gasta preparando as postagens está dando resultado? As pessoas voltam à sua página para consultar uma informação que você postou?
 
@@ -30,9 +42,29 @@ Surpresa nenhuma, já dizem isso desde os anos 2000.
 Por que você ainda não tem um em 2018?
 
 Não sabe um jeito de investir em um site de uma maneira que ele te retorne dinheiro a longo prazo? Deixa eu te mostrar algumas alternativas para que em 2018 você possa de fato ter seu primeiro site.
-  
+
+Certamente você já ouviu que ter um site dá mais credibilidade para o seu trabalho, mas talvez você não tenha pensado o porquê. Mas aqui eu te digo:
+1. Domínio próprio
+Evite a fadiga de ter que digitar seu nick estranho no behance/pinterest/dribbble porque o seu nome não está mais disponível.
+
+Dê preferência a um nome de domínio curto e fácil de lembrar. Isso vai ser bom para o seu marketing de um modo geral. Extensões .com.br, .com e .me são os que mais vejo sendo usado por freelancers.
+
+2. O visual do site
+Uma boa imagem vende qualquer coisa. O design do seu site é um fator importante para te destacar na frente das outras pessoas.
+
+Também o bom visual do seu site vai dar a garantia que você está levando a sério o seu negócio e o cliente vai ter confiança de onde tá botando o seu dinheiro.
+
+3. O conteúdo
+Seu site tem um domínio fácil, um design bacana e seus trabalhos estão bem apresentados. 
+
+Você acha suficiente? 
+
+A maioria das pessoas acreditam que sim...
+
+Também essa mesma quantidade de gente desconhece o que é necessário para ganhar notoriedade na internet.
+
 ### Freelancer full-time / part-time
-Se você é (ou deseja ser) freelancer, seja em tempo integral ou no tempo livre, ter um site com um bom design é primordial para que você consiga vender seu peixe, certo?
+Se você é (ou deseja ser) freelancer, seja em tempo integral ou no tempo livre, ter um site com um bom design é primordial para que você consiga vender seu peixe. 
 
 Talvez você já faça prospecção no local onde você mora, ou tenha um networking onde as pessoas te indicam quando aparece freela, mas a verdade é que você nunca tem controle sobre essas demandas. 
 
@@ -77,15 +109,31 @@ As oportunidades de trabalho virão naturalmente.
   
 
 ## Para se ter um site é necessário um investimento para produção e manutenção. Como fazer o investimento valer a pena?
-  1. Conteúdo (que converte)!
-    1. Ajudar outras pessoas
-    2. Construir uma autoridade
-    3. Manter relacionamento 
+
+Para que você tenha pessoas em contato com você, lembrando do seu trabalho constantemente, é necessário que você construa algum tipo de engajamento com o seu site para que as pessoas notem o seu trabalho.
+
+A maneira mais fácil de fazer isso é **criando conteúdo**
+
+As pessoas amam ouvir as experiências de outras pessoas que estão fazendo algo em comum com ela, seja um caso de sucesso ou de falha.
+
+Tópicos de experiência pessoal, do tipo: "Como eu fiz isso", tendem a gerar um grande número de engajamento segundo fontes TK
+
+Criar um blog não é somente uma questão de hype. 
+
+Há vários benefícios que virão não somente para você, mas para toda a internet.
+
+  1. Ajudar outras pessoas
+  Todo mundo tem experiências para contar. Positivas e negativas. Pense em como você pode compartilhar sua história e fazer alguém evitar um erro?
+  
+  2. Construir uma autoridade
+  3. Manter relacionamento 
+
 - O que você precisa para que todos leiam seu conteúdo
   1. No Ads
   2. Responsividade
   3. Tipografia
   4. Cores
+  5. Imagens
 
 **Ter uma boa presença online - o que quero dizer, um site moderno e com bom conteúdo aumenta sua reputação profissional. Mais pessoas passam a conhecer você e seu trabalho, que se for bem apresentado, garantirá para você mais clientes (e consequentemente mais dinheiro).**
 
