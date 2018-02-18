@@ -23,20 +23,19 @@ O melhor de tudo isso, é que também aproveitei para dar a cara a tapa com o Wo
 
 ## Como consegui meu primeiro destino (com hospedagem grátis) para ter minha primeira experiência como nômade digital
 
-Eu já estava trabalhando como desenvolvedor freelancer remoto há 3 meses antes de iniciar minha jornada de viagens. E como disse, a vontade de viajar e trabalhar já estava dentro de mim desde que li o livro The Four Hours Work Week, e por isso a transição (mesmo sem muuuito planejamento) aconteceu quase que naturalmente.
+Eu já estava trabalhando como desenvolvedor freelancer remoto há 3 meses antes de iniciar minha jornada de viagens. E como disse, a vontade de viajar e trabalhar já estava dentro de mim desde que li o livro *The Four Hours Work Week*. Por conta disso a transição para trabalhar viajando aconteceu quase que naturalmente, mesmo sem muuuuito planejamento.
 
 Uma das primeiras coisas que eu tinha em mente quando pensei em ser nômade digital era o dinheiro que eu iria precisar gastar por mês para me manter viajando a longo prazo.
 
-Como eu já morava sozinho (dividindo apartamento com amigos no Recife) eu tinha uma pequena noção de gastos mensais vivendo na minha cidade. E embora a variação de preço varie de cidade para cidade — afinal, eu gostaria de ir para uma cidade grande tipo Rio de Janeiro ou São Paulo — na minha cabeça a meta era viver como um local e não como turista para que os gastos não elevassem muito daquilo que eu já vinha gastando por mês.
+Como eu já morava sozinho (dividindo apartamento com amigos no Recife) eu tinha uma pequena noção de gastos mensais vivendo na minha cidade. E embora o preço das despesas varie de cidade para cidade — levando em conta que eu gostaria de ir para uma cidade grande tipo Rio de Janeiro ou São Paulo — na minha cabeça a meta era viver como um local e não como turista para que eu não gastasse muito mais do que aquilo que eu já vinha gastando por mês.
 
 As três despesas básicas para se levar em consideração são as seguintes:
-
 
 - Hospedagem
 - Comida
 - Passagem área (ou ônibus)
 
-Todas as três representam um grande percentual do orçamento e apresentam uma grande variação de preço de acordo com cidade (para alimentação), época do ano (para passagens e hospedagem), e sua capacidade de se auto-gerenciar — porque, se você comer em restaurante todo dia sem gerenciar seus gastos, sua viagem vai por água a baixo em pouco tempo.
+Todas as três representam um grande percentual do orçamento e apresentam uma grande variação de preço de acordo com cidade (para alimentação), época do ano (para passagens e hospedagem), e sua capacidade de se auto-gerenciar — porque, se você comer em restaurante todo dia sem gerenciar seus gastos, sua viagem vai por água abaixo em pouco tempo.
 
 Então, baseado na filosofia de *cheap travel*, coloquei no papel como eu deveria agir com meu dinheiro para que o lance de ser nômade digital pudesse fluir. E assim é como penso:
 
@@ -50,13 +49,13 @@ Então, baseado na filosofia de *cheap travel*, coloquei no papel como eu deveri
 
 As vagas geralmente são para ajudar na limpeza e organização, recepção do hostel, decorar o ambiente, gerenciar as redes sociais ou **criar (dar manutenção) em um site** que é a categoria no qual eu consegui minha primeira vaga.
 
-Para se candidatar às vagas é preciso ser um membro verificado, que é uma espécie de membro premium que para se tornar é necessário pagar uma taxa de $50 dólares anuais (aproximadamente R$175,00 com a conversão do site). Esse pagamento você pode fazer via boleto ou cartão de crédito. É um investimento que vale a pena, pensando que você vai passar um ano se hospedando de graça pelo mundo.
+Para se candidatar às vagas é preciso ser um membro verificado, que é uma espécie de membro premium que você precisa pagar uma taxa de $50 dólares anuais (aproximadamente R$175,00 com a conversão do site). Esse pagamento você pode fazer via boleto ou cartão de crédito. É um investimento que vale a pena, pensando que você vai passar um ano se hospedando de graça pelo mundo.
 
-*ps: no final deste texto existe um link para um artigo do próprio worldpackers explicando como funciona a ferramenta*
+*ps: no final deste texto deixei um link para um artigo do próprio worldpackers explicando como funciona a ferramenta*
 
-Assim que eu comecei a trabalhar remoto, já tinha planejado fazer minha assinatura para começar a aplicar para as vagas no WorldPackers. 
+Assim que eu comecei a trabalhar remoto, já havia planejado fazer minha assinatura para começar a aplicar para as vagas no WorldPackers. 
 
-No começo do ano, próximo ao termino do contrato do apartamento que eu estava morando, esperei receber o dinheiro de uns projetos que tinha feito e paguei a taxa para no próximo dia já começar a aplicar. 
+No começo do ano, próximo ao termino do contrato do apartamento alugado que eu estava morando, esperei receber o dinheiro de uns projetos que tinha feito e paguei o valor referente à taxa no WorldPackeres. No próximo dia já comecei as aplicações.
 
 Foram exatamente 6 aplicações e 2 aceitações até que eu conseguisse minha primeira oportunidade, no qual eu escolhi o Rio de Janeiro porque a outra anfitriã só conseguiria me hospedar por uma semana, e este tempo além de não ser suficiente para fazer o que ela queria, também me faria sair no prejuízo já que eu teria que comprar outra passagem de avião para outro destino em pouco tempo.
 
@@ -80,7 +79,7 @@ Me diverti bastante, conheci os amigos de Gabriel e passamos o dia todo rodando 
 
 ##### Dia 02 - Quarta Feira de Cinzas
 
-Depois de um dia regado à antárctica, samba e longos percursos (tudo no Rio de Janeiro é grande), acordei na quarta-feira extremamente bem. Sem ressaca ou qualquer outro sintoma de mazela.
+Depois de um dia regado à antárctica, samba e longos percursos (tudo no Rio de Janeiro é distante), acordei na quarta-feira extremamente bem. Sem ressaca ou qualquer outro sintoma de mazela.
 
 Pelo contrário, estava disposto à retribuir a boa recepção que tive e queria iniciar o planejamento do trabalho. Afinal, eu sabia que o prazo era curto e se eu vacilasse poderia não cumprir o que foi acordado.
 
@@ -91,26 +90,27 @@ Apesar de na descrição da vaga postada no WorldPackers eu ter direito a 3 dias
 
 De qualquer forma, o anfitrião me deixou com horário flexível para sair quando quisesse durante a semana (coisa que vai acontecer nessa). 
 
-Eu preenchi apenas um dia como OFF essa semana porque sei que para nós desenvolvedores, o importante é ter um pouco de progresso todo dia. Portanto, mesmo no dia que eu sair e passar o dia fora, sei que à noite vou sentar no computador e codar pelo menos uma hora.
+Eu preenchi apenas um dia como OFF essa semana porque sei que para nós desenvolvedores, o importante é ter um pouco de progresso todo dia. Portanto, mesmo no dia que eu sair e passar o dia fora, sei que à noite vou sentar no computador e *codar* pelo menos uma hora.
 
-Os próximos dias (03 pra frente) foram seguindo o cronograma, conciliando os trabalhos que ainda estou terminando de uns clientes do Recife, e saindo em um dos dias para ir na praia do Rio de Janeiro.
+Os próximos dias (03 pra frente) foram seguindo o cronograma, conciliando com os trabalhos que já tinha de uns clientes do Recife, e saindo em um dos dias para ir à praia da Barra da Tijuca, no Rio de Janeiro.
 
-<mark>Eu estarei compartilhando em outro post como desenvolverei um tema WordPress em 08 dias. Se você for desenvolvedor e se interessar, volte na segunda-feira e você verá ele por aqui.</mark>
+<mark>Eu estarei compartilhando em outro post como desenvolverei um tema WordPress em 08 dias. Se você for desenvolvedor e se interessar, na segunda-feira ele estará disponível aqui.</mark>
 
 ## Notas Sobre Produtividade e Rotina de Trabalho enquanto Viaja
 
-Com um prazo apertado, mais de um projeto ao mesmo tempo, e vários lugares para conhecer no Rio de Janeiro, é normal que se pergunte como é possível conciliar tudo isso de uma só vez.
+Com um prazo apertado, mais de um projeto para trabalhar ao mesmo tempo, e vários lugares para conhecer no Rio de Janeiro, é normal que se pergunte como é possível conciliar tudo isso de uma só vez.
 
-Bem, apesar de eu ter adotado ferramentas e estratégias de organização desde que comecei a trabalhar em casa, percebi que algumas das coisas se misturaram com essa viagem e rotina flexivel.
+Bem, apesar de eu ter adotado ferramentas e estratégias de organização desde que comecei a trabalhar em casa, percebi que todo o plano não saiu exatamente como esperado.
 
-Até porque, ao tocar no assunto de produtividade, logo me vem à lembrança o conselho das pessoas bem sucedidas que recomendam estabelecer uma rotina diária para manter seu trabalho em dia. 
+Apesar de ser recomendado estabelecer uma rotina diária para manter o trabalho em dia, nesses primeiros dias eu tive que fazer uma adaptação para tornar meus horários mais flexíveis. 
 
-Apesar de concordar que uma rotina ajuda na sua produtividade, talvez viajando e trabalhando seja difícil de você estabelecer uma. 
-
-Eu particularmente estou aproveitando quando posso e trabalhando quando posso, utilizando a motivação que surgiu por causa da viagem para me manter focado em todos os outros horários no qual não estou curtindo a cidade.
+Mas eu particularmente estou aproveitando a motivação que surgiu por causa da viagem para me manter focado em todos os outros horários no qual não estou curtindo a cidade, e assim consigo dar conta do trabalho.
 
 Manhãs e madrugadas tem sido minha válvula de escape, e por enquanto não tenho sentido nenhuma dificuldade. Se você conseguir trabalhar nesses horários, poderá ter o dia inteiro para aproveitar sua viagem.
 
+Ainda tenho 01 semana e 03 dias aqui nesse meu primeiro destino, portanto, esse post ainda vai ser atualizado a fim de passar o máximo e informação possível para quem quer se tornar nômade digital.
+
+Por enquanto, quero deixar esse final voltado para quem não é desenvolvedor e também gostaria de embarcar nessa jornada.
 
 #### Conclusão: O que é necessário para viajar e trabalhar mesmo se eu não for desenvolvedor?
 
@@ -125,11 +125,11 @@ A quantidade de profissões que aceitam essa modalidade de trabalho vem crescend
 
 Uma das vantagens dessas áreas é que é fácil você dominar uma ou mais dessas habilidades com a ajuda da internet — independente de sua formação acadêmica ou atual profissão — é possível se especializar com tutoriais e cursos online.
 
-Ainda pretendo compartilhar aqui mais sobre esse assunto de se tornar freelancer, afinal, a dificulade do iniciante é ficar perdido por onde começar e como criar um plano que de fato torne possível a vida de nômade digital.
+Ainda pretendo compartilhar aqui mais sobre esse assunto de se tornar freelancer, afinal, a dificulade do iniciante é saber por onde começar e como criar um plano que de fato torne possível a vida de nômade digital.
 
-Eu também tinha as mesmas dúvidas e passei centenas de horas pesquisando cada uma dessas coisas. O que mais me ajudou foi saber inglês suficiente para obter informação de qualidade, que me daria destrinchadamente um passo a passo para conseguir botar em prática o que eu havia lido.
+Eu também tinha as mesmas dúvidas e passei centenas de horas pesquisando cada uma dessas coisas. 
 
-De qualquer forma, sugiro você seguir esses blogs/artigos de pessoas que estão viajando e trabalhando ao mesmo tempo e que tratam da maioria das coisas que eu comentei por aqui:
+Por enquanto, para que você possa saber mais, aqui tá alguns links para blogs/artigos de pessoas que estão viajando e trabalhando ao mesmo tempo e que tratam da maioria das coisas que eu comentei por aqui. Vale a pena seguir cada um.
 
 - [Pequenos Monstros - blog de dois nômades digitais](http://www.pequenosmonstros.com/){:target="_blank"}
 - [Como se tornar um redator freelancer - Rock Content](https://comunidade.rockcontent.com/como-se-tornar-um-redator-freelancer/){:target="_blank"}
