@@ -35,6 +35,12 @@
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- Analytics
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
+
 </head>
 <body>
         
