@@ -50,6 +50,7 @@ p > img + em {
   text-align: center;
   margin-top: 5px;
 }
+
 /**
  * index.scss
  * - Add any styles you want here!
@@ -77,6 +78,11 @@ p > img + em {
    -moz-osx-font-smoothing: grayscale;
    color: $black;
  }
+
+ mark {
+  background-color: $secondary-2;
+  color: #f6f6f6;
+}
  
  p,
  h1,
@@ -756,7 +762,8 @@ $vt-margin: 32px;
   > h1,
   > h2,
   > h3,
-  > h4
+  > h4,
+  > h5
   {
     font-weight: 600;
   }
