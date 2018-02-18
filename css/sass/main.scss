@@ -39,6 +39,17 @@ html, body {
     margin: 0;
 }
 
+ul {
+  list-style: inside;
+}
+
+p > img + em {
+  color: #777777;
+  font-size: 85%;
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+}
 /**
  * index.scss
  * - Add any styles you want here!
