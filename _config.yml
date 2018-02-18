@@ -15,10 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Beto | Front-End Developer
 email: your-email@domain.com
-description: > Desenvolvedor Web Freelancer e Nomade Digital # this means to ignore newlines until "baseurl:"
-  
+description: "Desenvolvedor Web Freelancer e Nômade Digital"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://betoo.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: beto_js_
 github_username:  betodasilva
 

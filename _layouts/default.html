@@ -36,12 +36,12 @@
   <meta name="theme-color" content="#ffffff">
 
   <meta content="{{ site.title }}" property="og:site_name">
-{% if page.title %}
+{% if page.subtitle %}
   <meta content="{{ page.title }}" property="og:title">
 {% else %}
   <meta content="{{ site.title }}" property="og:title">
 {% endif %}
-{% if page.title %}
+{% if page.subtitle %}
   <meta content="article" property="og:type">
 {% else %}
   <meta content="website" property="og:type">
@@ -51,9 +51,9 @@
 {% else %}
   <meta content="{{ site.description }}" property="og:description">
 {% endif %}
-
-<meta content="{{ site.url }}{{ page.url }}" property="og:url">
-
+{% if page.url %}
+<meta content="{{ page.url | prepend: site.url}}" property="og:url">
+{% endif %}
 {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   <meta content="{{ site.url }}/sobre/" property="article:author">
