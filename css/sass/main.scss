@@ -720,12 +720,18 @@ $vt-margin: 32px;
 
 }
 
+.single-title,
+.single-subtitle {
+  text-shadow: 1px 1px 1px black;
+}
+
 .single-title {
   font-weight: 600;
 }
 
 .single-subtitle {
   font-size: 18px;
+  font-weight: 700;
 }
 
 .single-content {
