@@ -520,7 +520,7 @@ a.article {
   text-decoration: none;
   margin-top: .85em;
   margin-bottom: .25em;
-  font-size: 1.75em;
+  font-size: 1.44em;
   line-height: 1.25;
   font-weight: 700;
   // text-shadow: 1px 1px rgba(0,0,0,0.2);
@@ -552,6 +552,7 @@ a.article {
     &.marketing { background: $secondary-2; }
     &.dev { background: $black; }
     &.freelance { background: #f44; }
+    &.nomade-digital { background: $secondary; }
   }
 }
 
@@ -710,7 +711,7 @@ $vt-margin: 32px;
     content: "";
     position: absolute;
     left:0; top: 0; right: 0; bottom: 0;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.44);
   }
 
   @include desktop(){
@@ -728,7 +729,7 @@ $vt-margin: 32px;
 }
 
 .single-content {
-  font-size: 21px;
+  font-size: 19px;
   font-family: 'Open Sans', sans-serif;
   color: #424242;
   > p {
@@ -741,6 +742,11 @@ $vt-margin: 32px;
   > h4
   {
     font-weight: 600;
+  }
+
+  @media (min-width: 1024px) {
+    margin-top: 80px;
+    margin-bottom: 80px;
   }
 
 }
