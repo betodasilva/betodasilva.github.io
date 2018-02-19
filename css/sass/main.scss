@@ -107,6 +107,16 @@ p > img + em {
    color: #fff;
    padding: 0 5px;
    margin:0 2.5px;
+   > a { 
+     text-decoration: none; 
+     color: #fff;
+    &:hover,
+    &:active,
+    &:visited {
+      color: #fff; 
+    }
+    
+  }
  }
  
  .header {
