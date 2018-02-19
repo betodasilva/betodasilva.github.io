@@ -159,7 +159,7 @@ p > img + em {
    position: absolute;
    top: 5px;
    right: 20px;
-   z-index: 4;
+   z-index: 11;
    cursor: pointer;
    @include desktop {
      display: none;
