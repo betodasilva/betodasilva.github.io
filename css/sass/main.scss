@@ -323,6 +323,7 @@ p > img + em {
      height: 84PX;
      //  center photo with flex-box
      display: flex; justify-content: center; align-items: center;
+     overflow: hidden;
      //  background: #fff;
      //  border: 3px solid #424242;
      border-radius: 100%;
@@ -341,8 +342,20 @@ p > img + em {
      
    }
 
+   .picture:hover > img {
+    filter: grayscale(0);
+    // filter: hue-rotate(320deg);
+    // transform: scale(1.03);
+    transform: translateY(-5px);
+   }
    .picture > img {
      border-radius: 100%;
+     width: 113px;
+     max-width: initial;
+     filter: hue-rotate(320deg);
+     filter: grayscale(100%);
+     transition: all 280ms ease;
+
    }
    
    .text {
