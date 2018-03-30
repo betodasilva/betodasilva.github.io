@@ -25,6 +25,7 @@ github_username:  betodasilva
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
