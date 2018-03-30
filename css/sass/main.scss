@@ -634,6 +634,8 @@ a.article {
 .about-title {
   font-size: 42px;
   line-height: 1.6;
+  margin: 0;
+  color: #fff;
 }
   
 
@@ -797,4 +799,21 @@ $vt-margin: 32px;
     margin-bottom: 80px;
   }
 
+}
+
+.bg-dark {
+  background-color: $secondary;
+  @for $i from 1 through 6 {
+    > h#{$i} { color: #fff; }
+  }
+  > p, > span {
+    color: #fff;
+  }
+}
+
+.content {
+  padding: 4em;
+  > p {
+    font-size: 17px;
+  }
 }
