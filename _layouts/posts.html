@@ -1,30 +1,43 @@
 ---
 layout: default
 ---
-{% assign post = page %}
-<article class="single-post">
-    <div class="single-image" style="background-image: url('{{ post.image }}');">
-        
-            <header class="single-header"> 
-                <div class="single-container">
-                <h1 class="single-title">{{ post.title }}</h1>
-                <p class="single-subtitle">{{ post.subtitle }}</p>
-
-                {% if post.categories %}
-                <div class="article-categories">
-                    {% for category in post.categories %}
-                        <a href="" class="category {{category}}">{{ category }}</a>
-                    {% endfor %}
+<div class="container">
+    {% assign post = page %}
+    <article class="single-post">
+        <div class="single-meta">
+            <div class="single-meta__author author">
+                <div class="author__img author__img--bordered">
+                    <img src={{ "/images/avatar/thumb4.jpeg" | prepend: site.url }} alt="Beto da Silva"/>
                 </div>
-                {% endif %}
+                <span class="author__name">Beto da Silva</span>
             </div>
-            </header>
-        
-    </div>
-    <div class="single-container">
-        <div class="single-content">
-                {{ content }}
+            <div class="single-meta__posted-on posted-on">
+                <span>{{ post.date | date_to_long_string }} :calendar:</span>
+            </div>
         </div>
-    </div>  
-    
-</article>
+        <div class="single-image" style="background-image: url('{{ post.image }}');">
+                <header class="single-header"> 
+                    {% if post.categories %}
+                    <div class="categories__list">
+                        {% for category in post.categories %}
+                            <a href="" class="category {{category}}">{{ category }}</a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                    <div class="single-container">
+                    <h1 class="single-title">{{ post.title }}</h1>
+                    <p class="single-subtitle">{{ post.subtitle }}</p>
+
+                    
+                </div>
+                </header>
+            
+        </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+        <div class="single-container">
+            <div class="single-content">
+                    {{ content }}
+            </div>
+        </div>  
+        
+    </article>
+</div>
