@@ -303,9 +303,11 @@ h6 {
  }
  .headline {
    @include flex-center-both();
-   padding-bottom: 3em;
-   @media (min-width: 1024px) {
-    padding-bottom: 4em;
+   padding-bottom: 4.6em;
+
+   @include desktop {
+     padding-top: 120px;
+     padding-bottom: 120px;
    }
  }
  .headline-wrapper {
@@ -335,6 +337,7 @@ h6 {
    font-weight: 700;
    color: $secondary;
    margin-bottom: 0;
+   font-size: 52px;
    @media (min-width: 1024px) {
     font-size: 64px;
    }
