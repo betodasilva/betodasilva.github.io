@@ -108,7 +108,7 @@ p > img + em {
    h3 {
      font-size: 16px;
    }
-   
+
  }
  
  img {
@@ -853,7 +853,7 @@ $vt-margin: 32px;
     }
 
     &__author {
-      order: 1;
+      order: 0;
     }
 
   }
@@ -897,6 +897,7 @@ $vt-margin: 32px;
   @include desktop() {
 
       &__img {
+        max-width: 62px;
         width: 62px;
         height: 62px;
         > img {
