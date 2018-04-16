@@ -95,6 +95,21 @@ p > img + em {
  {
    &::selection { background-color: $main; color: #fff; } 
  }
+
+ @media (max-width: 780px) {
+   h1 {
+     font-size: 22px;
+   }
+
+   h2 {
+     font-size: 18px;
+   }
+
+   h3 {
+     font-size: 16px;
+   }
+   
+ }
  
  img {
    max-width: 100%;
@@ -709,20 +724,24 @@ $vt-margin: 32px;
 .single-post {
   background: #fff;
   margin-top: 120px;
-  padding: 60px;
-  border-radius: 40px;
+  padding: 32px 20px;
+  border-radius: 20px;
+  @include desktop(){
+    padding: 60px;
+  }
 }
 
 .single-container {
-  padding-right: 2em;
-  padding-left: 2em;
-
+  @include desktop {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
 }
 
 .single-header {
   @include flexbox-mid();
   position: relative;
-  padding: 1em 0;
+  padding: 30px 20px 20px 20px;
   height: 100%;
   margin: 1em 0 2.5em;
   // margin-bottom: 3em;
@@ -738,26 +757,29 @@ $vt-margin: 32px;
 .single-image {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  margin-right: auto;
-  margin-left: auto;
+  background-position: center;  
   margin-bottom: $vt-margin;
   width: 1440px;
-  border-radius: 20px;
   max-width: 100%;
   max-height: 460px;
+  margin-right: auto;
+  margin-left: auto;
   position: relative;
   &:after {
     content: "";
     position: absolute;
     left:0; top: 0; right: 0; bottom: 0;
     background-color: rgba(0,0,0,0.44);
-    border-radius: 20px;
   }
 
   @include desktop(){
-    height: 360px;
+    height: 360px;    
     margin-bottom: 64px;
+    border-radius: 20px;
+
+    &:after {
+      border-radius: 20px;
+    }
   }
 
 }
@@ -769,15 +791,21 @@ $vt-margin: 32px;
 
 .single-title {
   font-weight: 600;
+  @media (max-width: 780px) {
+    font-size: 22px;
+  }
 }
 
 .single-subtitle {
   font-size: 18px;
   font-weight: 700;
+  margin-bottom: 0;
+  @media (max-width: 780px) {
+    font-size: 14px;
+  }
 }
 
 .single-content {
-  font-size: 19px;
   font-family: 'Open Sans', sans-serif;
   color: #424242;
   > p {
@@ -793,10 +821,9 @@ $vt-margin: 32px;
     font-weight: 600;
   }
 
-  // @media (min-width: 1024px) {
-  //   margin-top: 80px;
-  //   margin-bottom: 80px;
-  // }
+  @include desktop {
+    font-size: 19px;
+  }
 
 }
 
@@ -805,17 +832,33 @@ $vt-margin: 32px;
 .single-meta {
   @include flexbox-mid();
   margin-bottom: 32px;
+  justify-content: center;
+
+  &__posted-on {
+    margin-bottom: 16px;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__author {
+    order: 3;
+  }
 
   @include desktop(){
     &__posted-on {
+      margin-bottom: 0;
       margin-left: auto;
+      width: auto;
+      text-align: right;
+    }
+
+    &__author {
+      order: 1;
     }
 
   }
 
-  &__posted-on {
-    margin-bottom: 15px;
-  }
+  
 
 }
 
@@ -824,17 +867,18 @@ $vt-margin: 32px;
 .author {
 
   &__img {
-    max-width: 62px;
-    height: 62px;
+    max-width: 42px;
+    height: 42px;
     border-radius: 100%;
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
     
     > img {
-      max-width: 70px !important;
+      max-width: 50px !important;
       transform: translateY(-8px);
     }
+
   }
 
   &__img--bordered {
@@ -847,7 +891,22 @@ $vt-margin: 32px;
     text-transform: uppercase;
     letter-spacing: 0.44px;
     margin-left: 10px;
+    font-size: 12px;
   }
+
+  @include desktop() {
+
+      &__img {
+        width: 62px;
+        height: 62px;
+        > img {
+          max-width: 70px !important;
+        }
+      }
+      &__name {
+        font-size: 14px;
+      }
+    }
 
 }
 
