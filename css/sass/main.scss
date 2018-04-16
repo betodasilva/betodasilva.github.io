@@ -607,6 +607,36 @@ a.article {
   color: $black;
 } 
 
+.article-categories {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  @include flex-center-both();
+
+  >.category {
+    display: block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    text-shadow: 0.4444px 0.4444px $black;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px;
+    
+
+    &.lifehack { background: $secondary; }
+    &.produtividade { background: $main; }
+    &.marketing { background: $secondary-2; }
+    &.dev { background: $black; }
+    &.freelance { background: #f44; }
+    &.nomade-digital { background: $secondary; }
+  }
+}
+
 .categories__list {
   position: absolute;
   top: -10px;
