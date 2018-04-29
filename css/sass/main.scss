@@ -67,7 +67,7 @@ $terciary: #155263;
 
 
 body {
-    background: $bg;  
+    background: #fff;  
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: $black;
@@ -295,7 +295,7 @@ img {
 .headline {
     @include flex-center-both();
     padding-bottom: 4.6em;
-    
+    background-color: #F4F5F6;
     @include desktop {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -420,6 +420,9 @@ img {
 
 /* - Projects 
 ------------------------- */
+.projects {
+    background-color: #F4F5F6;
+}
 .project-container {
     position: relative;
     min-height: 360px;
@@ -499,16 +502,29 @@ img {
     
 .project-btns {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 1.6em;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     .project-link { 
         color: #FFF;
         text-decoration: none; 
     }
-    button { color: #FFF; }
+    button { 
+        color: #FFF; 
+        width: 180px;
+    }
     button:hover {
         background: #FFF;
         color: $secondary;
+    }
+
+    @include desktop {
+        margin-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
     
 }
@@ -606,7 +622,7 @@ a.article {
     
 .categories__list {
     position: absolute;
-    top: -10px;
+    bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
     @include flex-center-both();
@@ -615,7 +631,7 @@ a.article {
         display: block;
         margin: 0 5px;
         padding: 5px 10px;
-        font-size: 10px;
+        font-size: 12px;
         text-transform: uppercase;
         letter-spacing: 1px;
         color: #fff;
@@ -753,13 +769,11 @@ $vt-margin: 32px;
     
 .single-post {
     background: #fff;
-    padding: 32px 20px;
-    margin: 60px -20px;
+    padding: 0 20px;
+    margin-bottom: 60px;
     border-radius: 20px;
     @include desktop(){
-        padding: 80px;
-        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-        margin-top: 120px;
+        padding: 0 80px;
         margin-bottom: 120px;
     }
 }
@@ -767,19 +781,24 @@ $vt-margin: 32px;
 
 .single-header {
     @include flexbox-mid();
+    align-content: center;
+    background-color: #F4F5F6;
     position: relative;
     height: 100%;
-    margin: 1em -20px 2.5em;
-    // margin-bottom: 3em;
+    margin: 0 -20px 2.5em;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
-    color: #fff;
     z-index: 3;
+    color: $secondary;
     &__content {
-        padding: 40px;
+        padding: 0 40px;
     }
     
     @include desktop {
-
+        margin-left: -80px;
+        margin-right: -80px;
+        height: 460px;
         &__content {
             max-width: 800px;
             margin-left: auto;
@@ -815,11 +834,7 @@ $vt-margin: 32px;
     
 }
     
-.single-title,
-.single-subtitle {
-    text-shadow: 1px 1px 1px black;
-}
-    
+ 
 .single-title {
     font-weight: 600;
     @media (max-width: 780px) {
@@ -838,6 +853,8 @@ $vt-margin: 32px;
 
 .single-content {
     color: #424242;
+    padding-left: 20px;
+    padding-right: 20px;
     > p, ul, ol {
         margin-bottom: 32px;
     }
@@ -856,6 +873,7 @@ $vt-margin: 32px;
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
+        padding: 0;
         > p, ul {
             margin-bottom: 42px;
         }
@@ -867,9 +885,9 @@ $vt-margin: 32px;
     
 .single-meta {
     @include flexbox-mid();
-    margin-bottom: 32px;
     justify-content: center;
-    
+    padding-bottom: 20px;
+    width: 100%;
     &__posted-on {
         margin-bottom: 16px;
         width: 100%;
@@ -883,6 +901,9 @@ $vt-margin: 32px;
     @include desktop(){
         margin-left: auto;
         margin-right: auto;
+        margin-top: -32px;
+        margin-bottom: 32px;
+        max-width: 800px;
         &__posted-on {
             margin-bottom: 0;
             margin-left: auto;

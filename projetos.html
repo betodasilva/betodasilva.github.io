@@ -3,8 +3,8 @@ layout: default
 title: projetos
 weight: 2
 ---
-<div class="container">
-<section class="projects row first-sec no-wrapper">
+<section class="projects first-sec no-wrapper">
+  <div class="container">
     {% for project in site.projects %}
       {% assign loopindex = forloop.index | modulo: 2 %}
       {% if loopindex != 0 or forloop.first %}
@@ -32,5 +32,5 @@ weight: 2
       </div> <!-- .row-projects -->
       {% endif %}
     {% endfor %}
+  </div>
 </section>
-</div>

@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-<div class="container">
-    {% assign post = page %}
-    <article class="single-post">
+
+{% assign post = page %}
+<article class="single-post">
+    
+    
+    <header class="single-header">
         <div class="single-meta">
             <div class="single-meta__author author">
                 <div class="author__img author__img--bordered">
@@ -15,27 +18,24 @@ layout: default
                 <span>{{ post.date | date_to_long_string }} :calendar:</span>
             </div>
         </div>
-        <div class="single-image" style="background-image: url('{{ post.image }}');">
-            <header class="single-header"> 
-                {% if post.categories %}
-                <div class="categories__list">
-                    {% for category in post.categories %}
-                        <a href="" class="category {{category}}">{{ category }}</a>
-                    {% endfor %}
-                </div>
-                {% endif %}
-                <div class="single-header__content">
-                    <h1 class="single-title">{{ post.title }}</h1>
-                    <p class="single-subtitle">{{ post.subtitle }}</p>
-                </div>
-
-            </header>
-        </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-        
-        <div class="single-content">
-                {{ content }}
+        {% if post.categories %}
+        <div class="categories__list">
+            {% for category in post.categories %}
+                <a href="" class="category {{category}}">{{ category }}</a>
+            {% endfor %}
         </div>
-        
-        
-    </article>
-</div>
+        {% endif %}
+        <div class="single-header__content">
+            <h1 class="single-title">{{ post.title }}</h1>
+            <p class="single-subtitle">{{ post.subtitle }}</p>
+        </div>
+
+    </header>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    
+    <div class="single-content">
+            {{ content }}
+    </div>
+    
+    
+</article>
