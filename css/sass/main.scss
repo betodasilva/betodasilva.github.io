@@ -682,7 +682,6 @@ a.article {
     color: #fff;
 }
 .quote {
-    padding-top: 24px; 
     padding-bottom: 24px;
     @include flexbox-mid();
     
@@ -692,7 +691,7 @@ a.article {
     
     > blockquote {
         width: 100%;
-        text-align: right;
+        text-align: center;
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 5px;
@@ -704,8 +703,13 @@ a.article {
     }
     
     @media (min-width: 1024px) {
+        padding-top: 24px; 
         > cite {
             margin-right: 10px; 
+        }
+
+        > blockquote {
+            text-align: right;
         }
     }
 }
@@ -718,19 +722,30 @@ a.article {
 
 .form-footer > label {
     margin: 0 0 10px;
+    text-align: center;
     > span {
-        font-weight: 300;
+        font-weight: 400;
         display: block;
     }
 }
 
 .form-footer > input[type="email"] {
-    width: 70%;
+    width: 100%;
     color: $black;
+    @include desktop {
+        width: 70%;
+    }
 }
 
 .form-footer > input[type="submit"] {
     color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    @include desktop(){
+        display: inline-block;
+    }
+
 }
     
 /* SINGLE POSTS */
