@@ -747,6 +747,10 @@ a.article {
         font-weight: 400;
         display: block;
     }
+
+    @include desktop {
+        text-align: left;
+    }
 }
 
 .form-footer > input[type="email"] {
