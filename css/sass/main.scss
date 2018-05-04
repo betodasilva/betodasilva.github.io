@@ -295,6 +295,7 @@ img {
 .headline {
     @include flex-center-both();
     padding-bottom: 4.6em;
+    min-height: 30vh;
     background-color: #F4F5F6;
     @include desktop {
         padding-top: 120px;
@@ -337,6 +338,9 @@ img {
 
 
 .about {
+    &:not(.about--home) {
+        min-height: 76vh;
+    }
     
     .short-description {
         
@@ -344,9 +348,10 @@ img {
             padding-top: 10px;
         }
     }
-    &.about--home {
+    &--home {
         background: $secondary;
         padding-top: 3em;
+        min-height: 40vh;
     }
     .picture {
         width: 84px;
@@ -536,6 +541,7 @@ Articles
 
 .articles {
     background-color: #F4F5F6;
+    min-height: 76vh;
 }
 
 .row-articles {
@@ -1001,4 +1007,8 @@ $vt-margin: 32px;
     > p {
         font-size: 17px;
     }
+}
+
+.contact {
+    min-height: 76vh;
 }
