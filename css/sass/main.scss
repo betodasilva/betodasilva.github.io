@@ -1011,4 +1011,7 @@ $vt-margin: 32px;
 
 .contact {
     min-height: 76vh;
+    @include desktop(){
+        padding-bottom: 82px;
+    }
 }
