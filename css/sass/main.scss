@@ -563,6 +563,7 @@ a.article {
     box-shadow: 1px 1px 5px 0 rgba(40, 44, 55, 0.2);
     transform: translateY(0);
     transition: all 280ms ease;
+    border-radius: 6px;
     &:hover {
         transform: translateY(12px);
     }
@@ -582,18 +583,28 @@ a.article {
     
 .article-img {
     margin: 0 -1.5em;
+    > img, & {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    
 }
     
 .article-text { 
-    text-align: center; 
+    text-align: left; 
     margin-bottom: 40px;
+
+    > p {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
 }
     
 .article-title {
     text-decoration: none;
     margin-top: .85em;
     margin-bottom: .25em;
-    font-size: 1.44em;
+    font-size: 18px;
     line-height: 1.25;
     font-weight: 700;
     // text-shadow: 1px 1px rgba(0,0,0,0.2);
@@ -627,6 +638,7 @@ a.article {
         &.dev { background: $black; }
         &.freelance { background: #f44; }
         &.nomade-digital { background: $secondary; }
+        &.front-end { background: $black; }
     }
 }
     
@@ -657,6 +669,7 @@ a.article {
         &.dev { background: $black; }
         &.freelance { background: #f44; }
         &.nomade-digital { background: $secondary; }
+        &.front-end { background: $black; }
     }
 }
     
