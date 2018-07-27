@@ -989,8 +989,9 @@ $vt-margin: 32px;
     }
     
     &__img--bordered {
-        border: 3px solid $secondary;
-        border-right-color: transparent;
+        //border: 3px solid #fff;
+        //border-right-color: transparent;
+        box-shadow: -1px 1px 4px 0 rgba(0, 0, 0, 0.25);
     }
     
     &__name {
