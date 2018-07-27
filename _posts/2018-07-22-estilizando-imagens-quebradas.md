@@ -121,9 +121,8 @@ Pode-se utilizar o _shorthand_ background se desejar :)
     background-size: 64px;
 
     /* Ícone que escolhi (em base64)*/
-    background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0...) 
-    /* Cortei a url só para o exemplo */
-
+    background-image: url(data:image/svg+xml;utf8;base64..) 
+    /* Cortei a url neste exemplo por estar utilizando uma base64 */
 }
 ```
 
