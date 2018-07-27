@@ -4,9 +4,7 @@ layout: default
 
 {% assign post = page %}
 <article class="single-post">
-    
-    
-    <header class="single-header">
+    <header class="single-header{% if post.bg-color %} {{ post.bg-color }}{% endif %}">
         <div class="single-meta">
             <div class="single-meta__author author">
                 <div class="author__img author__img--bordered">

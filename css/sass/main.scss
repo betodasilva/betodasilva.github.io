@@ -652,7 +652,7 @@ a.article {
     >.category {
         display: block;
         margin: 0 5px;
-        padding: 5px 10px;
+        padding: 5px 20px;
         font-size: 12px;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -812,7 +812,7 @@ $vt-margin: 32px;
     background-color: #F4F5F6;
     position: relative;
     height: 100%;
-    margin: 0 -20px 2.5em;
+    margin: 0 -20px 60px;
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
@@ -837,6 +837,21 @@ $vt-margin: 32px;
     @media (min-width: 1620px) {
         padding-left: 25%;
         padding-right: 25%;
+    }
+
+    &.orange {
+        background-color: $main;
+        color: #fff;
+    }
+
+    &.black {
+        background-color: $black;
+        color: #fff;
+    }
+
+    &.purple {
+        background-color: $secondary;
+        color: #fff;
     }
 }
     

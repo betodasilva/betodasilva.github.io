@@ -5,6 +5,7 @@ subtitle: Substitua a mensagem padrão de erro e melhore a experiência da sua a
 thumbnail_image: /images/posts/styled-broken-image.jpeg
 image: /images/posts/experiencia-digital-nomade.png
 categories: [front-end]
+bg-color: purple
 ---
 
 Recentemente passei por uma necessidade de construir um previsualizador de imagem para upload e pensei como poderia evitar o máximo o uso de js para fazer injeção de uma tag dinâmicamente, e ao invés disso, poder só setar o atributo _src_ à medida que a imagem fosse carregada.
