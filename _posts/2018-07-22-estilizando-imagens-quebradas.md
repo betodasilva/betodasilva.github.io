@@ -15,17 +15,15 @@ Recentemente passei por uma necessidade de construir um previsualizador de image
 
 Acontece que deixando a tag `<img>` com o src vazio, o tal ícone padrão com o alt que eu havia definido deixava o aspecto final longe do visual que eu havia feito pro upload. 
 
+!["Imagem com link quebrado estilizada"](/images/posts/styled-broken-image.jpeg)
+
 Lembrando de alguns artigos que havia lido há uns tempos quando estava aprendendo sobre **pseudoelementos**, resolvi fazer uma outra pesquisa e tentar deixar um visual legal com um ícone e fonte da minha escolha que se adaptasse à UI que estava criando.
 
 Em linhas práticas o que precisei utilizar para conseguir tal efeito foram o :before e :after e a propriedade content, com um texto customizado dentro do atributo content.
 
 Depois desse caso de previsualizador, fiz um exemplo para selecionar todas as imagens quebradas com JavaScript e adicionar uma  classe com os estilos que eu havia criado: adicionando um ícone, criando um texto customizado e de quebra imprimindo o link que estava quebrado.
 
-Fora o uso do atributo :before e :after, junto com a propriedade content, o resto é o básico feijão com arroz do CSS.
-
-Você pode conferir o resultado a seguir:
-
-!["Imagem com link quebrado estilizada"](/images/posts/styled-broken-image.jpeg)
+Fora o uso do atributo :before e :after, junto com a propriedade content, o resto é o básico feijão com arroz do CSS, que vamos ver a seguir.
 
 ## Como estilizar as imagens quebradas?
 
