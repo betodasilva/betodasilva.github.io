@@ -7,14 +7,20 @@ const gulp = require('gulp'),
 
 
 // uglify JavaScripts
+const dir = {
+    base: '/src',
+    js: this.base + '/js',
+    sass: this.base + '/sass'
+}
+
 gulp.task('uglify', function(){
-    gulp.src('js/*.js')
+    gulp.src( dir.js + '/*' )
         .pipe(uglify())
         .pipe(gulp.dest('build/js'));
 });
 
 gulp.task('minify', function(){
-    gulp.src('css/sass/main.scss')
+    gulp.src( dir.sass + '/main.scss' )
         .pipe(sass({
             outputStyle: 'compressed'
         })).on('error', sass.logError)
