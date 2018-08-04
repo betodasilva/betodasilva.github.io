@@ -7,20 +7,23 @@ const gulp = require('gulp'),
 
 
 // uglify JavaScripts
-const dir = {
-    base: '/src',
+var dir = {
+    base: './src',
     js: this.base + '/js',
     sass: this.base + '/sass'
 }
+
+
 
 gulp.task('uglify', function(){
     gulp.src( dir.js + '/*' )
         .pipe(uglify())
         .pipe(gulp.dest('build/js'));
+    
 });
 
 gulp.task('minify', function(){
-    gulp.src( dir.sass + '/main.scss' )
+    gulp.src( [dir.sass + '/main.scss', dir.base + '/vendor/vendor.scss'] )
         .pipe(sass({
             outputStyle: 'compressed'
         })).on('error', sass.logError)
@@ -39,8 +42,8 @@ gulp.task('watch', function(){
             baseDir: siteRoot
         }
     });
-    gulp.watch('js/*.js', ['uglify']);
-    gulp.watch('css/sass/*.scss', ['sass-watch']);
+    gulp.watch('./src/*.js', ['uglify']);
+    gulp.watch('./src/*.scss', ['sass-watch']);
 });
 
 
