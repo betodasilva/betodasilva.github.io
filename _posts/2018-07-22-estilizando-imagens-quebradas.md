@@ -3,7 +3,7 @@ layout: posts
 title: Estilizando imagens quebradas no seu site utilizando pseudoelementos
 subtitle: Substitua a mensagem padrão de erro e melhore a experiência da sua aplicação em poucos minutos.
 thumbnail_image: /images/posts/styled-broken-image.jpeg
-image: /images/posts/experiencia-digital-nomade.png
+image: /images/posts/styled-broken-image.jpeg
 categories: [front-end]
 bg-color: purple
 ---
