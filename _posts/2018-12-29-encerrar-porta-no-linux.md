@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Como Encerrar Uma Porta Ouvindo Em uma Porta no Linux / MacOS
+title: Como Encerrar Um Processo Executando Em uma Porta no Linux / MacOS
 subtitle: Solucione o erro 'port is already in use' ao tentar rodar um servidor http
 thumbnail_image: /images/posts/como-encerrar-processo-linux-2018-12-29.png
 image: /images/posts/como-encerrar-processo-linux-2018-12-29.png
